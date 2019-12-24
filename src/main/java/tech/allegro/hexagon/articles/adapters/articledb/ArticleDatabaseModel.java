@@ -1,4 +1,4 @@
-package tech.allegro.hexagon.articles.adapters.persistence;
+package tech.allegro.hexagon.articles.adapters.articledb;
 
 class ArticleDatabaseModel {
     /**

@@ -1,4 +1,4 @@
-package tech.allegro.hexagon.articles.adapters.events;
+package tech.allegro.hexagon.articles.adapters.eventbus;
 
 import tech.allegro.hexagon.articles.domain.model.Article;
 import tech.allegro.hexagon.articles.domain.ports.ArticleEventPublisher;

@@ -1,4 +1,4 @@
-package tech.allegro.hexagon.articles.adapters.twitter;
+package tech.allegro.hexagon.articles.adapters.socialmedia;
 
 class ArticleTwitterModel {
     /**

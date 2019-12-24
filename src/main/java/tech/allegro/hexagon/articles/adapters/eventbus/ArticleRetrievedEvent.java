@@ -1,4 +1,4 @@
-package tech.allegro.hexagon.articles.adapters.events;
+package tech.allegro.hexagon.articles.adapters.eventbus;
 
 class ArticleRetrievedEvent {
     /**

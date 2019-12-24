@@ -1,4 +1,4 @@
-package tech.allegro.hexagon.articles.adapters.persistence;
+package tech.allegro.hexagon.articles.adapters.articledb;
 
 import tech.allegro.hexagon.articles.domain.model.Article;
 import tech.allegro.hexagon.articles.domain.model.ArticleId;

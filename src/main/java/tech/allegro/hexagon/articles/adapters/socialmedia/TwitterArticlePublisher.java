@@ -1,4 +1,4 @@
-package tech.allegro.hexagon.articles.adapters.twitter;
+package tech.allegro.hexagon.articles.adapters.socialmedia;
 
 import tech.allegro.hexagon.articles.domain.model.Article;
 import tech.allegro.hexagon.articles.domain.ports.SocialMediaPublisher;
