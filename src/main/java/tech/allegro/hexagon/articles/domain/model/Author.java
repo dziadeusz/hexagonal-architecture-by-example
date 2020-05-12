@@ -5,7 +5,7 @@ public class Author {
     private final PersonName name;
 
 
-    public Author(final AuthorId id, final PersonName name) {
+    private Author(final AuthorId id, final PersonName name) {
         this.id = id;
         this.name = name;
     }
@@ -16,6 +16,10 @@ public class Author {
 
     public PersonName name() {
         return name;
+    }
+
+    public AuthorId id() {
+        return id;
     }
 
     public static final class AuthorBuilder {

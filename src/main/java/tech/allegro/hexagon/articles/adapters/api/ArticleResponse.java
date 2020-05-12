@@ -1,7 +1,7 @@
 package tech.allegro.hexagon.articles.adapters.api;
 
-import tech.allegro.hexagon.articles.domain.model.Article;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import tech.allegro.hexagon.articles.domain.model.Article;
 
 class ArticleResponse {
     private final String id;
@@ -24,22 +24,22 @@ class ArticleResponse {
     }
 
     @JsonProperty("id")
-    public String id() {
+    String id() {
         return id;
     }
 
     @JsonProperty("title")
-    public String title() {
+    String title() {
         return title;
     }
 
     @JsonProperty("content")
-    public String content() {
+    String content() {
         return content;
     }
 
     @JsonProperty("authorName")
-    public String authorName() {
+    String authorName() {
         return authorName;
     }
 }

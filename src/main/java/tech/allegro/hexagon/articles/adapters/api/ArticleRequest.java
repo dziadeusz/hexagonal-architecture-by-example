@@ -1,9 +1,9 @@
 package tech.allegro.hexagon.articles.adapters.api;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import tech.allegro.hexagon.articles.domain.model.AuthorId;
 import tech.allegro.hexagon.articles.domain.model.Content;
 import tech.allegro.hexagon.articles.domain.model.Title;
-import com.fasterxml.jackson.annotation.JsonProperty;
 
 class ArticleRequest {
     private final String title;
@@ -17,15 +17,15 @@ class ArticleRequest {
     }
 
 
-    public Title title() {
+    Title title() {
         return Title.of(title);
     }
 
-    public Content content() {
+    Content content() {
         return Content.of(content);
     }
 
-    public AuthorId authorId() {
+    AuthorId authorId() {
         return AuthorId.of(authorId);
     }
 

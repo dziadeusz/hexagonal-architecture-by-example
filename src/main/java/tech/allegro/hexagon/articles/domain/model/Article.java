@@ -1,17 +1,27 @@
 package tech.allegro.hexagon.articles.domain.model;
 
 public class Article {
+
     private final ArticleId id;
     private final Title title;
     private final Content content;
     private final Author author;
-
 
     private Article(final ArticleId id, final Title title, final Content content, final Author author) {
         this.id = id;
         this.title = title;
         this.content = content;
         this.author = author;
+    }
+
+    public void validateEligibilityForPublication() {
+        verifyForPlagiarism();
+        validateTitleLength();
+        validateContentLength();
+        checkPunctuation();
+        checkGrammar();
+        checkStyle();
+        //TODO: these methods are just placeholders with empty implementation
     }
 
     public ArticleId id() {
@@ -28,6 +38,24 @@ public class Article {
 
     public Author author() {
         return author;
+    }
+
+    private void checkGrammar() {
+    }
+
+    private void checkStyle() {
+    }
+
+    private void checkPunctuation() {
+    }
+
+    private void verifyForPlagiarism() {
+    }
+
+    private void validateContentLength() {
+    }
+
+    private void validateTitleLength() {
     }
 
     public static ArticleBuilder article() {
